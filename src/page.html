@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+@@include('components/_head.html')
+<body>
+  @@include('components/_header.html')
+  
+  <main class="window" style="background-image: url('images/bg-page2.png');">
+    <div class="container">
+      <div class="window__inner" style="background-image: url('images/bg-item.png');">
+        <div class="window__inner-title">
+          დადასტურება
+        </div>
+        <div class="window__inner-text">თქვენ გსურთ EMS გამოძახება?</div>
+        <div class="window__inner-online">ონლაინშია:<span>15</span></div>
+        <div class="window__buttons">
+          <button class="windod__btn" type="btn">კი</button>
+          <button class="windod__btn" type="btn">არა</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  @@include('components/_footer.html')
+  @@include('components/_scripts.html')
+</body>
+</html>

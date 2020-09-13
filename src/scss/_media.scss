@@ -1,0 +1,197 @@
+@media(max-width: 1920px) {
+  .shop {
+    padding: 55px 0;
+    &__sidebar{
+      &-title{
+        font-size: 28px;
+        max-width: 185px;
+        min-height: 149px;
+        margin-bottom: 100px;
+        margin-left: 80px;
+        margin-bottom: 55px;
+      }
+      &::before{
+        width: 845px;
+      }
+    }
+    &__inner{
+      max-width: 1850px;
+    }
+    &__exit{
+      margin: 90px 0 0 80px;
+      font-size: 28px;
+    }
+  }
+  .clothes-content {
+    max-width: 430px;
+    &__title{
+      font-size: 24px;
+      padding: 20px 0 20px 135px;
+      &::before{
+        left: 60px;
+        top: 10px;
+      }
+    }
+  }
+  .clothes-content__title{
+    &-icon1::before{
+      left: 54px;
+    }
+    &-icon4::before{
+      left: 69px;
+    }
+    &-icon7::before{
+      left: 68px;
+    }
+    &-icon8::before{
+      top: 23px;
+    }
+    &-icon9::before{
+      left: 66px;
+    }
+  }
+  .shop__item{
+    width: 420px;
+    &-title{
+      font-size: 22px;
+      padding-top: 23px;
+      min-height: 75px;
+    }
+    &-btn{
+      font-size: 23px;
+      height: 77px;
+    }
+  }
+  .shop__box{
+    font-size: 21px;
+    min-height: 90px;
+    padding: 0 40px;
+  }
+  .quantity{
+    input{
+      font-size: 21px;
+      height: 25px;
+    }
+    &-button{
+      top: -27px;
+    }
+    &-up{
+      right: -25px;
+    }
+    &-down{
+      left: -40px;
+    }
+  }
+}
+@media(max-width: 1370px) {
+  .shop {
+    padding: 40px 0 20px;
+    &__sidebar{
+      &-title{
+        font-size: 22px;
+        max-width: 145px;
+        min-height: 115px;
+        margin-left: 60px;
+        margin-bottom: 30px;
+      }
+      &::before{
+        width: 670px;
+      }
+    }
+    &__inner{
+      max-width: 1315px;
+    }
+    &__exit{
+      margin: 55px 0 0 60px;
+      font-size: 24px;
+    }
+  }
+  .clothes-content {
+    max-width: 335px;
+    &__title{
+      font-size: 18px;
+      padding: 15px 0 15px 110px;
+      &::before{
+        top: 10px;
+        left: 57px;
+      }
+    }
+  }
+  .clothes-content__title{
+    &-icon1::before{
+      left: 54px;
+      width: 35px;
+      height: 25px;
+    }
+    &-icon2::before{
+      width: 25px;
+      height: 28px;
+    }
+    &-icon3::before{
+     width: 25px;
+     height: 36px;
+     top: 6px;
+    }
+    &-icon4::before{
+      width: 16px;
+      height: 33px;
+      left: 61px;
+      top: 9px;
+    }
+    &-icon5::before{
+      width: 35px;
+      height: 25px;
+    }
+    &-icon6::before{
+      width: 32px;
+      height: 32px;
+    }
+    &-icon7::before{
+      width: 20px;
+      height: 34px;
+      left: 63px;
+      top: 8px;
+    }
+    &-icon8::before{
+      width: 40px;
+      height: 18px;
+      top: 15px;
+      left: 52px;
+    }
+    &-icon9::before{
+      width: 27px;
+      height: 32px;
+      left: 59px;
+    }
+  }
+  .shop__item{
+    width: 350px;
+    &-title{
+      font-size: 18px;
+      padding-top: 16px;
+      min-height: 55px;
+    }
+    &-btn{
+      font-size: 18px;
+      height: 57px;
+    }
+  }
+  .shop__box{
+    font-size: 15px;
+    min-height: 70px;
+    padding: 0 40px;
+  }
+  .quantity{
+    input{
+      font-size: 15px;
+      height: 18px;
+    }
+    &-button{
+      height: 23px;
+      top: -19px;
+    }
+    &-up{
+      right: -15px;
+    }
+  }
+}
