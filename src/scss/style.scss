@@ -2,15 +2,204 @@
 @import 'vars';
 @import 'global';
 
-
-
-
-
-
-
-
-
-
+.shop{
+  padding: 87px 0;
+  min-height: 100%;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 2359px;
+  }
+  &__sidebar{
+    &-title{
+      max-width: 236px;
+      min-height: 206px;
+      background: center / cover no-repeat;
+      color: #f1f1f1;
+      font-size: 37px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 135px;
+      margin-left: 126px;
+    }
+    &::before{
+      position: absolute;
+      content: '';
+      background: center / cover no-repeat url('../images/bg.png');
+      min-height: 100%;
+      width: 1089px;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+  }
+  &__exit{
+    background-color: transparent;
+    border: none;
+    color: rgba(241, 241, 241, 0.639);
+    cursor: pointer;
+    font-size: 33px;
+    margin: 150px 0 0 126px;
+  }
+}
+.tabs-content{
+  display: none;
+}
+.tabs-content.tabs-content--active{
+  display: block;
+}
+.clothes-content{
+  max-width: 519px;
+  width: 100%;
+  &__title{
+    display: block;
+    padding: 21px 0 24px 222px;
+    border-radius: 0 10px 10px 0;
+    font-size: 30px;
+    color: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+    transition: all .3s;
+    &:hover{
+      background: #1c1e2d;
+    }
+    &::before{
+      position: absolute;
+      content: '';
+      left: 130px;
+      top: 17px;
+    }
+  }
+}
+.clothes-content__title{
+  &-icon1::before{
+    background: center / cover no-repeat url('../images/icons/icon1.png');
+    width: 53px;
+    height: 38px;
+    left: 124px;
+  }
+  &-icon2::before{
+    background: center / cover no-repeat url('../images/icons/icon2.png');
+    width: 39px;
+    height: 41px;
+  }
+  &-icon3::before{
+    background: center / cover no-repeat url('../images/icons/icon3.png');
+    width: 37px;
+    height: 46px;
+  }
+  &-icon4::before{
+    background: center / cover no-repeat url('../images/icons/icon4.png');
+    width: 21px;
+    height: 44px;
+    left: 139px;
+  }
+  &-icon5::before{
+    background: center / cover no-repeat url('../images/icons/icon5.png');
+    width: 50px;
+    height: 35px;
+  }
+  &-icon6::before{
+    background: center / cover no-repeat url('../images/icons/icon6.png');
+    width: 45px;
+    height: 45px;
+  }
+  &-icon7::before{
+    background: center / cover no-repeat url('../images/icons/icon7.png');
+    width: 34px;
+    height: 53px;
+    left: 138px;
+  }
+  &-icon8::before{
+    background: center / cover no-repeat url('../images/icons/icon8.png');
+    width: 49px;
+    height: 22px;
+    top: 26px;
+  }
+  &-icon9::before{
+    background: center / cover no-repeat url('../images/icons/icon9.png');
+    width: 37px;
+    height: 42px;
+    left: 136px;
+  }
+}
+.shop__item{
+  width: 482px;
+  text-align: center;
+  &-title{
+    padding-top: 30px;
+    background-color: #232844;
+    font-size: 25px;
+    min-height: 88px;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 3px;
+  }
+  &-btn{
+    width: 100%;
+    height: 90px;
+    background-color: #232844;
+    color: #f4f4f4;
+    font-size: 25px;
+    border: none;
+    border-radius: 0 0 15px 15px;
+    transition: all .3s;
+    cursor: pointer;
+    &:hover{
+      color: #212337;
+      background: #13d6f6;
+    }
+  }
+}
+.shop__box{
+  display: flex;
+  justify-content: space-between;
+  background-color: #232844;
+  align-items: center;
+  min-height: 110px;
+  padding: 0px 50px 0 49px;
+  margin-bottom: 3px;
+  &-title{
+    color: rgba(244, 244, 244, 0.82);
+  }
+  &-price{
+    color: #00f6ff;
+  }
+}
+.quantity{
+  &-nav{
+    position: relative;
+  }
+  input{
+    width: 60px;
+    background: transparent;
+    color: #f4f4f4;
+    font-size: 22px;
+    line-height: 1.2;
+    height: 28px;
+    display: block;
+    border: none;
+    @include BPGB;
+  }
+}
+.quantity-button{
+  position: absolute;
+  top: -30px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.quantity-up{
+  right: -30px;
+}
+.quantity-down{
+  left: -50px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 
 

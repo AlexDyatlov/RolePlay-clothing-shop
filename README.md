@@ -2,6 +2,6 @@
 
 # RolePlay
 
-page clothing-shop
+page clothing_shop
 
 
